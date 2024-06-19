@@ -6,7 +6,7 @@ Darth Sidious gave Order 66 and the Galactic Republic went into Chaos. The clone
 Seeing what was going on, the Bad Batch decided they would go on a mission to save the remaining Jedi Knights in the galaxy. They received intel that Jedi Master Windu is on planet Naboo with some young padawans, so they decided to travel to him. However, the Bad Batch were informed that the separatists issued a hefty bounty on their heads. For this reason, they need to be careful when travelling to Naboo. The Bad Batch is currently on the planet Tatooine. To hide their tracks, they decided that they would only get fuel for their ship from their trusted allies on the planets that would be on their route to Naboo. In order to go from one planet to the next, they need to do one hyperspace teleport. The one hyperspace teleport requires one litre of fuel. The Bad Batch managed to broadcast a message to all their trusted allies on the planets asking them to inform the Bad Batch of the fuel litres they can provide when they land on their planets. Now that the Bad Batch has the amount of fuel that each planet on their route to Naboo (including Tatooine and Naboo) can provide, they need to design:
 
 - A Divide and Conquer algorithm that will tell them whether they can reach Naboo with the amount of fuel that their allies will provide.
- A Greedy algorithm that does the same thing and runs in O(n). 
+- A Greedy algorithm that does the same thing and runs in O(n). 
 
 Unfortunately, there is a malfunction in the engines of the ship such that when the ship
 lands on any planet, it drains out all the fuel it has. May the Force be with them!
