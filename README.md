@@ -19,3 +19,16 @@ You are required to submit one Java file titled TheBadBatch containing the follo
 
 - public static boolean TatooineToNabooDivideAndConquer(int [] fuel) that implements a divide and conquer approach to finding whether Naboo can be reached using allies fuel only or not.
 - public static boolean TatooineToNabooGreedy(int [] fuel) that implements the Greedy approach that does the same but runs in O(n)
+
+## Assignment 2
+### Problem Description:
+After Tech managed to find out that they would be able to reach planet Naboo from Tatooine, he realised that they needed to be as discrete as possible. To do that Tech decided to minimize their landings as much as possible. You need to help Tech to:
+
+- Design a Dynamic programming algorithm that outputs the minimum number of planets the Bad Batch needs to land on and fuel to reach Naboo. The algorithm should run in O(n^2).
+- Reconsruct a path that leads to Naboo with that minimum number of landings. The algorithm should run in O(n^2).
+- 
+### Deliverables. 
+You are required to submit one Java file titled TheBadBatchPath containing the following methods. The class name must be TheBadBatchPath and the class must have a package name csen703.main.assignment2.
+
+- public static Integer TatooineToNabooDP(int [] fuel) that implements a dynamic programming approach to finding the minimum number of landings to reach planet Naboo. Notice that you always land on Naboo anyway.
+- public static ArrayList<Integer> TatooineToNabooPath(int [] fuel) that returns an ordered minimum path of the planets indices the BadBatch should land on to reach Naboo. Notice that Tatooine and Naboo are always the start and end of this path. If there are multiple minimum paths, you only return one of them. Notice that using static variables might mess up the test cases, therefore we advise against using static variables. There are other workarounds that you can do.
